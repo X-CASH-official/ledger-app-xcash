@@ -1,4 +1,4 @@
-# blue-app-monero tools
+# blue-app-xcash tools
 
 
 ## Seed Recovery
@@ -28,11 +28,11 @@ The following python package are required:
 
 In tools/python/ directory:
 
-     PYTHONPATH=`pwd`/src python3 -m ledger.monero.seedconv
+     PYTHONPATH=`pwd`/src python3 -m ledger.xcash.seedconv
 
 Example:
 
-    $ PYTHONPATH=`pwd`/src python3 -m ledger.monero.seedconv offline
+    $ PYTHONPATH=`pwd`/src python3 -m ledger.xcash.seedconv offline
 
     =============================================================
     Monero Seed Converter v0.8. Copyright (c) Ledger SAS 20018.
